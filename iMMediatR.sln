@@ -1,27 +1,29 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D823B24C-8DFE-4D6A-8523-7F50EFAC06EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iMMediatR", "src\iMMediatR\iMMediatR.csproj", "{A277934E-C321-415B-B65D-BBD8406285A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iMMediatR", "src\iMMediatR\iMMediatR.csproj", "{A277934E-C321-415B-B65D-BBD8406285A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iMMediatR.SourceGenerator", "src\iMMediatR.SourceGenerator\iMMediatR.SourceGenerator.csproj", "{57220CDD-DD91-4702-BC2D-0B47C30A9C3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iMMediatR.SourceGenerator", "src\iMMediatR.SourceGenerator\iMMediatR.SourceGenerator.csproj", "{57220CDD-DD91-4702-BC2D-0B47C30A9C3E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DA2AB7C7-26A8-478F-8DAB-D3BC3DFEE5B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iMMediatR.SourceGenerator.Tests", "test\iMMediatR.SourceGenerator.Tests\iMMediatR.SourceGenerator.Tests.csproj", "{7DB3C39E-550F-489F-9D4B-B9A6D3AF7D74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iMMediatR.SourceGenerator.Tests", "test\iMMediatR.SourceGenerator.Tests\iMMediatR.SourceGenerator.Tests.csproj", "{7DB3C39E-550F-489F-9D4B-B9A6D3AF7D74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iMMediatR.Tests", "test\iMMediatR.Tests\iMMediatR.Tests.csproj", "{03F289A8-D2D5-4292-9CDD-0FA55F89B6E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iMMediatR.Tests", "test\iMMediatR.Tests\iMMediatR.Tests.csproj", "{03F289A8-D2D5-4292-9CDD-0FA55F89B6E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C943EAF7-F9AD-4254-A891-9386D9D733B8}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A277934E-C321-415B-B65D-BBD8406285A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -41,10 +43,16 @@ Global
 		{03F289A8-D2D5-4292-9CDD-0FA55F89B6E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03F289A8-D2D5-4292-9CDD-0FA55F89B6E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A277934E-C321-415B-B65D-BBD8406285A7} = {D823B24C-8DFE-4D6A-8523-7F50EFAC06EB}
 		{57220CDD-DD91-4702-BC2D-0B47C30A9C3E} = {D823B24C-8DFE-4D6A-8523-7F50EFAC06EB}
 		{7DB3C39E-550F-489F-9D4B-B9A6D3AF7D74} = {DA2AB7C7-26A8-478F-8DAB-D3BC3DFEE5B1}
 		{03F289A8-D2D5-4292-9CDD-0FA55F89B6E4} = {DA2AB7C7-26A8-478F-8DAB-D3BC3DFEE5B1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EA843B6-6969-4621-A832-20ED0980D72C}
 	EndGlobalSection
 EndGlobal
