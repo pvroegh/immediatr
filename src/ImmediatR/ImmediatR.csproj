@@ -1,16 +1,21 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference 
-		Include="..\ImmediatR.SourceGenerator\ImmediatR.SourceGenerator.csproj"
-		OutputItemType="Analyzer"
-		ReferenceOutputAssembly="false"/>
-  </ItemGroup>
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
+	</PropertyGroup>
+	
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<ProjectReference
+			Include="..\ImmediatR.SourceGenerator\ImmediatR.SourceGenerator.csproj"
+			OutputItemType="Analyzer"
+			ReferenceOutputAssembly="false"/>
+	</ItemGroup>
 
 </Project>
